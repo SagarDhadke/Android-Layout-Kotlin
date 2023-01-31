@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NeatRootsFirst"
+        tools:targetApi="31">
+        <activity
+            android:name=".constraintlayout.Gapy"
+            android:exported="false" />
+        <activity
+            android:name=".constraintlayout.Amazon"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout.Food"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout.Instagram"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RelativeLayout.Ola"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout.Facebook"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout.Google"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout.RelativeDemo"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout.GoRide"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout.Google"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout.Ola"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout.Facebook"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
