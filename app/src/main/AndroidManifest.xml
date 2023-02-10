@@ -12,21 +12,26 @@
         android:theme="@style/Theme.NeatRootsFirst"
         tools:targetApi="31">
         <activity
-            android:name=".New.Basic"
+            android:name=".DataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Class14and15.Classfourteen"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
+            android:name=".Class14and15.Classfifteen"
+            android:exported="false" />
+        <activity
+            android:name=".New.Basic"
+            android:exported="false"></activity>
+        <activity
             android:name=".constraintlayout.FoodOrder"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".constraintlayout.Gapy"
             android:exported="false" />
@@ -38,7 +43,7 @@
             android:exported="false" />
         <activity
             android:name=".RelativeLayout.Instagram"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".RelativeLayout.Ola"
             android:exported="false" />
